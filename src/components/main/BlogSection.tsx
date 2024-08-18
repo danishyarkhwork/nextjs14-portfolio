@@ -42,12 +42,10 @@ const BlogSection = () => {
             Latest <span className="font-semibold text-theme">Insights</span>
           </h2>
           <p className="mt-4 md:mt-6 subtitle">
-            Check out my latest blog posts where I share insights on web
-            development, tips for optimizing your website, and the latest trends
-            in technology. Whether you are a developer looking for new
-            techniques or a business owner seeking to enhance your online
-            presence, these articles provide valuable knowledge to help you stay
-            ahead in the digital landscape.
+            Check out my latest blog posts for web development insights, website
+            optimization tips, and the latest tech trends. Whether you're a
+            developer or a business owner, these articles offer valuable
+            knowledge to help you excel in the digital world.
           </p>
         </div>
         <div className="blog-list md:space-y-7.5 space-y-5 *:grid md:*:gap-2 *:grid-cols-12 *:overflow-hidden *:bg-flashWhite dark:*:bg-metalBlack *:items-center *:rounded-2xl *:p-3.5">
@@ -58,7 +56,7 @@ const BlogSection = () => {
                 className="block w-full overflow-hidden rounded-xl"
               >
                 <img
-                  src="assets/img/blog/article1.png"
+                  src="assets/img/blog/top-afghan-web-developer.webp"
                   className="object-cover object-center w-full h-full min-h-[288px] max-h-60 md:min-h-60 transition-all duration-300 ease-in-out group-hover:scale-105"
                   alt="Post Title"
                 />
@@ -68,9 +66,9 @@ const BlogSection = () => {
               <div className="flex items-center gap-5">
                 <div className="text-sm font-medium tags">
                   <a href="#" className="transition-colors hover:text-theme">
-                    UI Design{" "}
+                    Web Development{" "}
                   </a>
-                  ,<span className="post_date"> 03 May 2023 </span>
+                  ,<span className="post_date"> 03 August 2024 </span>
                 </div>
               </div>
               <div className="post-title mt-3 md:mt-4.5 mb-6 md:mb-8">
@@ -78,7 +76,7 @@ const BlogSection = () => {
                   href="article-details.html"
                   className="text-xl font-semibold leading-normal text-black dark:text-white transition-colors line-clamp-2 2xl:text-2xl 2xl:leading-normal hover:text-theme"
                 >
-                  Elevate your mornings with perfectly brewed coffee
+                  Top Afghan Website Designer 2024 in Kabul, Afghanistan
                 </a>
               </div>
               <div className="read-details">
@@ -98,7 +96,7 @@ const BlogSection = () => {
                 className="block w-full overflow-hidden rounded-xl"
               >
                 <img
-                  src="assets/img/blog/article2.png"
+                  src="assets/img/blog/afghan-job-market.webp"
                   className="object-cover object-center w-full h-full min-h-[288px] max-h-60 md:min-h-60 transition-all duration-300 ease-in-out group-hover:scale-105"
                   alt="Post Title"
                 />
@@ -108,9 +106,9 @@ const BlogSection = () => {
               <div className="flex items-center gap-5">
                 <div className="text-sm font-medium tags">
                   <a href="#" className="transition-colors hover:text-theme">
-                    UI Design{" "}
+                    Afghanistan{" "}
                   </a>
-                  ,<span className="post_date"> 03 May 2023 </span>
+                  ,<span className="post_date"> 12 Jun 2024 </span>
                 </div>
               </div>
               <div className="post-title mt-3 md:mt-4.5 mb-6 md:mb-8">
@@ -118,7 +116,8 @@ const BlogSection = () => {
                   href="article-details.html"
                   className="text-xl font-semibold leading-normal text-black dark:text-white transition-colors line-clamp-2 2xl:text-2xl 2xl:leading-normal hover:text-theme"
                 >
-                  Mastering the clock: A guide to time management
+                  How to Successfully Navigate the Afghanistan Job Market in
+                  2024
                 </a>
               </div>
               <div className="read-details">
@@ -138,7 +137,7 @@ const BlogSection = () => {
                 className="block w-full overflow-hidden rounded-xl"
               >
                 <img
-                  src="assets/img/blog/article3.png"
+                  src="assets/img/blog/kankor-exam.webp"
                   className="object-cover object-center w-full h-full min-h-[288px] max-h-60 md:min-h-60 transition-all duration-300 ease-in-out group-hover:scale-105"
                   alt="Post Title"
                 />
@@ -148,9 +147,9 @@ const BlogSection = () => {
               <div className="flex items-center gap-5">
                 <div className="text-sm font-medium tags">
                   <a href="#" className="transition-colors hover:text-theme">
-                    UI Design{" "}
+                    Education{" "}
                   </a>
-                  ,<span className="post_date"> 03 May 2023 </span>
+                  ,<span className="post_date"> 15 Oct 2023 </span>
                 </div>
               </div>
               <div className="post-title mt-3 md:mt-4.5 mb-6 md:mb-8">
@@ -158,7 +157,7 @@ const BlogSection = () => {
                   href="article-details.html"
                   className="text-xl font-semibold leading-normal text-black dark:text-white transition-colors line-clamp-2 2xl:text-2xl 2xl:leading-normal hover:text-theme"
                 >
-                  Homeward bound: Crafting a productive home pffice
+                  Your Ultimate Guide to Mastering the 2024 Kankor Exam
                 </a>
               </div>
               <div className="read-details">

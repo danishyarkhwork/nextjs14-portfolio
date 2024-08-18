@@ -14,12 +14,10 @@ const TestimonialsSection: FC = () => {
             What <span className="font-semibold text-theme">People Say</span>
           </h2>
           <p className="mt-4 md:mt-6 subtitle">
-            Discover what clients and colleagues have to say about working with
-            me. Their feedback highlights my commitment to delivering
-            high-quality web development services, my ability to meet deadlines,
-            and my passion for innovation. Read these testimonials to see how
-            I’ve helped others achieve their goals and why they trust me with
-            their projects.
+            Discover client and colleague testimonials showcasing my commitment
+            to high-quality web development, meeting deadlines, and driving
+            innovation. See how I've helped others achieve their goals and why
+            they trust me with their projects.
           </p>
         </div>
 

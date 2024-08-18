@@ -26,46 +26,6 @@ const SkillsSection: FC = () => {
               <div className="swiper-slide">
                 <div className="text-center icon">
                   <img
-                    src="assets/img/skill/figma.svg"
-                    className="dark:grayscale"
-                    alt="Figma"
-                  />
-                </div>
-                <div className="progressCircle">
-                  <div
-                    className="relative w-32 h-32 mx-auto circle md:w-40 md:h-40"
-                    data-percent="90"
-                    data-circlefill="#00BC91"
-                    data-circleempty="#777777"
-                  >
-                    <div className="absolute inset-0 text-2xl font-semibold text-black dark:text-white label flex-center"></div>
-                  </div>
-                </div>
-                <div className="text-black dark:text-white name">Figma</div>
-              </div>
-              <div className="swiper-slide">
-                <div className="text-center icon">
-                  <img
-                    src="assets/img/skill/webflow.svg"
-                    className="dark:grayscale"
-                    alt="webflow"
-                  />
-                </div>
-                <div className="progressCircle">
-                  <div
-                    className="relative w-32 h-32 mx-auto circle md:w-40 md:h-40"
-                    data-percent="85"
-                    data-circlefill="#00BC91"
-                    data-circleempty="#777777"
-                  >
-                    <div className="absolute inset-0 text-2xl font-semibold text-black dark:text-white label flex-center"></div>
-                  </div>
-                </div>
-                <div className="text-black dark:text-white name">Weblfow</div>
-              </div>
-              <div className="swiper-slide">
-                <div className="text-center icon">
-                  <img
                     src="assets/img/skill/tailwind.svg"
                     className="dark:grayscale"
                     alt="TailwindCSS"

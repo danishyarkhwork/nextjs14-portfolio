@@ -13,15 +13,11 @@ const ServicesSection: FC = () => {
             My <span className="font-semibold text-theme">Services</span>
           </h2>
           <p className="mt-4 md:mt-6 subtitle">
-            I offer a unique blend of expertise and affordability. With
-            proficiency in WordPress, HTML5, CSS3, JavaScript, and more, I
-            deliver high-quality development services at a budget-friendly
-            price. I am committed to timely delivery, ensuring projects are
-            completed promptly without compromising on quality. Additionally, my
-            strong background in SEO ensures that your website is optimized for
-            search engines. My passion for innovation keeps me updated with the
-            latest trends in web development, allowing me to bring fresh ideas
-            to every project.
+            I provide expert web development at an affordable price. Proficient
+            in WordPress, HTML5, CSS3, JavaScript, and more, I deliver quality
+            work on time without compromising. With a strong SEO background and
+            a passion for innovation, I ensure your site is optimized and
+            up-to-date with the latest trends.
           </p>
         </div>
 
