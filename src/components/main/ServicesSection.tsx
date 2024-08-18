@@ -4,7 +4,7 @@ const ServicesSection: FC = () => {
   return (
     <section data-scroll-index="0" id="services">
       <div className="service-section px-5 py-8 md:p-8 bg-white dark:bg-nightBlack rounded-2xl lg:p-10 2xl:p-13">
-        <div className="flex items-center gap-2 px-4 py-2 text-xs tracking-wide text-black dark:text-white border lg:px-5 section-name border-platinum dark:border-greyBlack200 rounded-4xl">
+        <div className="inline-flex items-center gap-2 px-4 py-2 text-xs tracking-wide text-black dark:text-white border lg:px-5 section-name border-platinum dark:border-greyBlack200 rounded-4xl">
           <i className="fal fa-concierge-bell text-theme"></i>
           SERVICES
         </div>
