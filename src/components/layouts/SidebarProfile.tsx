@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const SidebarProfile: React.FC = () => {
   return (
-    <div className="w-full mx-auto xl:fixed xl:top-1/2 xl:left-4 2xl:left-14 xl:transform xl:-translate-y-1/2 md:max-w-xs z-[999]">
+    <div className="mx-auto xl:fixed xl:top-1/2 xl:left-4 2xl:left-14 xl:transform xl:-translate-y-1/2 md:max-w-xs z-[999]">
       <div className="p-3 bg-white dark:bg-nightBlack rounded-2xl overflow-hidden">
         <div className="text-center mx-4 mt-12 lg:mx-6">
           <a

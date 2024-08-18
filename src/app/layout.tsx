@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Link from "next/link";
 import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -18,32 +17,32 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <Link rel="preconnect" href="https://fonts.googleapis.com" />
-        <Link rel="preconnect" href="https://fonts.gstatic.com" />
-        <Link
-          href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
-          rel="stylesheet"
-        />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet"
+      />
 
-        <Link rel="stylesheet" href="assets/css/fontAwesome5Pro.css" />
-        <Link rel="stylesheet" href="assets/css/cdheadline.css" />
-        <Link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
-        <Link rel="stylesheet" href="assets/css/style.min.css" />
-      </head>
+      <link rel="stylesheet" href="assets/css/fontAwesome5Pro.css" />
+      <link rel="stylesheet" href="assets/css/cdheadline.css" />
+      <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+      <link rel="stylesheet" href="assets/css/style.min.css" />
 
-      <body className={inter.className}>{children}</body>
+      <body className={`relative custom_cursor ${inter.className}`}>
+        {children}
 
-      <Script src="assets/js/jquery-3.6.0.min.js"></Script>
-      <Script src="assets/js/waypoints.min.js"></Script>
-      <Script src="assets/js/tw-elements.umd.min.js"></Script>
-      <Script src="assets/js/cd-headline.js"></Script>
-      <Script src="assets/js/jquery.counterup.min.js"></Script>
-      <Script src="assets/js/swiper-bundle.min.js"></Script>
-      <Script src="assets/js/scrollIt.min.js"></Script>
-      <Script src="assets/js/circle-progress.min.js"></Script>
-      <Script src="assets/js/script.js"></Script>
-      <Script src="assets/js/theme-mode.js"></Script>
+        <Script src="assets/js/jquery-3.6.0.min.js"></Script>
+        <Script src="assets/js/waypoints.min.js"></Script>
+        <Script src="assets/js/tw-elements.umd.min.js"></Script>
+        <Script src="assets/js/cd-headline.js"></Script>
+        <Script src="assets/js/jquery.counterup.min.js"></Script>
+        <Script src="assets/js/swiper-bundle.min.js"></Script>
+        <Script src="assets/js/scrollIt.min.js"></Script>
+        <Script src="assets/js/circle-progress.min.js"></Script>
+        <Script src="assets/js/script.js"></Script>
+        <Script src="assets/js/theme-mode.js"></Script>
+      </body>
     </html>
   );
 }
