@@ -12,25 +12,22 @@ const HeroSection: FC = () => {
         <div className="items-center gap-6 hero-content md:flex xl:gap-10">
           <div className="pt-7 lg:pt-8 max-w-[30rem]">
             <h1 className="text-[32px] lg:text-5xl xl:text-4xl 2xl:text-5xl font-semibold text-black dark:text-white leading-1.27 mb-4 lg:mb-5">
-              I Craft The <br />
-              <span className="text-theme">Digital Landscape</span>
+              Full Stack Web Developer <br />
+              <span className="text-theme">in Kabul</span>
             </h1>
             <p>
-              I am a{" "}
-              <span className="font-medium text-black dark:text-white/90">
-                Frontend Developer
-              </span>{" "}
-              at heart, and I create features that are best suited for the job
-              at hand.
+              Web Application Developer and WordPress Expert based in Kabul,
+              Afghanistan. Highly experienced in designing & developing custom
+              WordPress websites.
             </p>
             <ul className="flex items-center mt-4 lg:mt-5 space-x-3">
               <li className="flex items-center">
                 <i className="mr-2 fal fa-check-double text-theme"></i>
-                Available for work
+                Full Stack Web Developer
               </li>
               <li className="flex items-center">
                 <i className="mr-2 fal fa-check-double text-theme"></i>
-                Full Time Job
+                WordPress Expert
               </li>
             </ul>
             <ul className="mt-7">
@@ -47,14 +44,14 @@ const HeroSection: FC = () => {
           </div>
           <div className="flex-[0_0_20.3rem] hidden md:block">
             <Image
-              src="/assets/img/hero-img-1.png"
+              src="/assets/img/khalid-danishyar.webp"
               alt="Hero Image - Light Mode"
               className="dark:hidden"
               width={500}
               height={500}
             />
             <Image
-              src="/assets/img/hero-img-2.png"
+              src="/assets/img/khalid-danishyar.webp"
               alt="Hero Image - Dark Mode"
               className="hidden dark:block"
               width={500}

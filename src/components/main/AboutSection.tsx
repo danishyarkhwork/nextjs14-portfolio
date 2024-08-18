@@ -12,14 +12,30 @@ const AboutSection: FC = () => {
           <h2 className="title text-[32px] md:text-4xl lg:text-5xl font-extralight text-black dark:text-white leading-1.27">
             About <span className="font-semibold text-theme">Me</span>
           </h2>
-          <p className="max-w-2xl mt-4 md:mt-6 subtitle">
-            Hi, my name is
-            <span className="text-black dark:text-white">Brown Reddick</span>
-            and I began using WordPress when first began. spent most of my
-            waking hours for the last ten years designing, programming and
-            operating
-            <span className="text-black dark:text-white"> WordPress</span>
-            sites go beyond with exclusive designer.
+          <p className="mt-4 md:mt-6 subtitle">
+            👋 Hello, I’m Khalid Danishyar, a Full Stack Web Developer and
+            WordPress Expert with five years of commercial experience creating
+            successful websites and web-based applications. 🎓 I graduated with
+            a Bachelor of Computer Science (BCS) from Khurasan University in
+            Jalalabad, Afghanistan, and currently, I’m pursuing my Master’s
+            degree from Bakhtar University in Kabul.
+          </p>
+
+          <p className="mt-4 md:mt-6 subtitle">
+            🚀 I specialize in website design and development, with expertise in
+            WordPress, HTML5, CSS3, Bootstrap, Tailwind CSS, Figma, JavaScript,
+            jQuery, Vue.js, React, AngularJS, Alpine.js, PHP, Laravel, and other
+            web development tools. I am also skilled in SEO (Search Engine
+            Optimization), Blogging, teaching, data analysis and reporting, and
+            other technical activities. 💻 I have a passion for web programming
+            and am always eager to learn new technologies and techniques.
+          </p>
+
+          <p className="mt-4 md:mt-6 subtitle">
+            💬 I am always available to discuss your project and see how I can
+            help you achieve your goals. You can reach me via WhatsApp at +93 70
+            332 5036. I look forward to hearing from you and helping you bring
+            your web development projects to life.
           </p>
         </div>
         <div className="mt-6 section-content">
@@ -40,33 +56,28 @@ const AboutSection: FC = () => {
               <span className="flex-[0_0_6rem]">Phone</span>
               <span className="flex-[0_0_2rem]">:</span>
               <span className="text-black dark:text-white">
-                +(2) 870 174 302
+                +93 (0) 70 332 5036
               </span>
             </li>
             <li>
               <span className="flex-[0_0_6rem]">Email</span>
               <span className="flex-[0_0_2rem]">:</span>
               <span className="text-black dark:text-white">
-                info@example.com
+                info@khaliddanishyar.com
               </span>
-            </li>
-            <li>
-              <span className="flex-[0_0_6rem]">Skype</span>
-              <span className="flex-[0_0_2rem]">:</span>
-              <span className="text-black dark:text-white">brown@com</span>
             </li>
             <li>
               <span className="flex-[0_0_6rem]">Github</span>
               <span className="flex-[0_0_2rem]">:</span>
               <span className="text-black dark:text-white">
-                github.com/user
+                github.com/danishyarkhwork
               </span>
             </li>
             <li>
               <span className="flex-[0_0_6rem]">Language</span>
               <span className="flex-[0_0_2rem]">:</span>
               <span className="text-black dark:text-white">
-                English, Dutch, Spanish
+                Pashto, Dari, English
               </span>
             </li>
           </ul>
@@ -74,21 +85,21 @@ const AboutSection: FC = () => {
           <ul className="grid grid-cols-2 gap-6 counters md:grid-cols-4 xl:gap-8">
             <li>
               <div className="mb-1 text-2xl font-semibold md:text-3xl number text-theme 2xl:text-4xl">
-                <span>185</span>+
+                <span>6</span>+
               </div>
               <div className="text-sm">Years Of Experience</div>
             </li>
             <li>
               <div className="mb-1 text-2xl font-semibold md:text-3xl number text-theme 2xl:text-4xl">
-                <span>12</span>+
+                <span>42</span>+
               </div>
-              <div className="text-sm">Handled Projects</div>
+              <div className="text-sm">Completed Projects</div>
             </li>
             <li>
               <div className="mb-1 text-2xl font-semibold md:text-3xl number text-theme 2xl:text-4xl">
-                <span>05</span>+
+                <span>45</span>+
               </div>
-              <div className="text-sm">Open Source Libraries</div>
+              <div className="text-sm">Happy Customers</div>
             </li>
             <li>
               <div className="mb-1 text-2xl font-semibold md:text-3xl number text-theme 2xl:text-4xl">
