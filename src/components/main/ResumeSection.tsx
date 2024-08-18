@@ -32,7 +32,7 @@ const ResumeSection: FC = () => {
                 </p>
               </div>
               <div className="md:flex-1 md:pl-16 relative md:before:content-[''] md:before:absolute md:before:-left-1 md:before:top-3 md:before:w-2 md:before:h-2 md:before:bg-theme md:before:rounded-full md:before:shadow-dots_glow">
-                <h4 className="text-xl xl:text-2xl font-medium xl:font-medium leading-7 text-black dark:text-white mb-2.5">
+                <h4 className="text-lg xl:text-xl font-medium xl:font-medium leading-7 text-black dark:text-white mb-2.5">
                   Full Stack Web Developer
                 </h4>
                 <p>
@@ -52,7 +52,7 @@ const ResumeSection: FC = () => {
                 </p>
               </div>
               <div className="md:flex-1 md:pl-16 relative md:before:content-[''] md:before:absolute md:before:-left-1 md:before:top-3 md:before:w-2 md:before:h-2 md:before:bg-theme md:before:rounded-full md:before:shadow-dots_glow">
-                <h4 className="text-xl xl:text-2xl font-medium xl:font-medium leading-7 text-black dark:text-white mb-2.5">
+                <h4 className="text-lg xl:text-xl font-medium xl:font-medium leading-7 text-black dark:text-white mb-2.5">
                   Web Developer & SEO Analyst
                 </h4>
                 <p>
@@ -72,7 +72,7 @@ const ResumeSection: FC = () => {
                 </p>
               </div>
               <div className="md:flex-1 md:pl-16 relative md:before:content-[''] md:before:absolute md:before:-left-1 md:before:top-3 md:before:w-2 md:before:h-2 md:before:bg-theme md:before:rounded-full md:before:shadow-dots_glow">
-                <h4 className="text-xl xl:text-2xl font-medium xl:font-medium leading-7 text-black dark:text-white mb-2.5">
+                <h4 className="text-lg xl:text-xl font-medium xl:font-medium leading-7 text-black dark:text-white mb-2.5">
                   Web Developer & Social Media Manager
                 </h4>
                 <p>
@@ -111,7 +111,7 @@ const ResumeSection: FC = () => {
                 <p className="text-[13px] md:text-sm text-theme">2023-2025</p>
               </div>
               <div className="md:flex-1 md:pl-16 relative md:before:content-[''] md:before:absolute md:before:-left-1 md:before:top-3 md:before:w-2 md:before:h-2 md:before:bg-theme md:before:rounded-full md:before:shadow-dots_glow">
-                <h4 className="text-xl xl:text-2xl font-medium xl:font-medium leading-7 text-black dark:text-white mb-2.5">
+                <h4 className="text-lg xl:text-xl font-medium xl:font-medium leading-7 text-black dark:text-white mb-2.5">
                   Master in Computer Science (MCS)
                 </h4>
                 <p>
@@ -128,7 +128,7 @@ const ResumeSection: FC = () => {
                 <p className="text-[13px] md:text-sm text-theme">2015-2019</p>
               </div>
               <div className="md:flex-1 md:pl-16 relative md:before:content-[''] md:before:absolute md:before:-left-1 md:before:top-3 md:before:w-2 md:before:h-2 md:before:bg-theme md:before:rounded-full md:before:shadow-dots_glow">
-                <h4 className="text-xl xl:text-2xl font-medium xl:font-medium leading-7 text-black dark:text-white mb-2.5">
+                <h4 className="text-lg xl:text-xl font-medium xl:font-medium leading-7 text-black dark:text-white mb-2.5">
                   Bachelor in Computer Science
                 </h4>
                 <p>
@@ -145,7 +145,7 @@ const ResumeSection: FC = () => {
                 <p className="text-[13px] md:text-sm text-theme">2016-2017</p>
               </div>
               <div className="md:flex-1 md:pl-16 relative md:before:content-[''] md:before:absolute md:before:-left-1 md:before:top-3 md:before:w-2 md:before:h-2 md:before:bg-theme md:before:rounded-full md:before:shadow-dots_glow">
-                <h4 className="text-xl xl:text-2xl font-medium xl:font-medium leading-7 text-black dark:text-white mb-2.5">
+                <h4 className="text-lg xl:text-xl font-medium xl:font-medium leading-7 text-black dark:text-white mb-2.5">
                   Diploma in English Language
                 </h4>
                 <p>

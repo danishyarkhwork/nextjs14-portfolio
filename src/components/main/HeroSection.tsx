@@ -12,8 +12,8 @@ const HeroSection: FC = () => {
         <div className="items-center gap-6 hero-content md:flex xl:gap-10">
           <div className="pt-7 lg:pt-8 max-w-[30rem]">
             <h1 className="text-[32px] lg:text-5xl xl:text-4xl 2xl:text-5xl font-semibold text-black dark:text-white leading-1.27 mb-4 lg:mb-5">
-              Full Stack Web Developer <br />
-              <span className="text-theme">in Kabul</span>
+              Web Developer <br />
+              <span className="text-theme">Based in Kabul</span>
             </h1>
             <p>
               Web Application Developer and WordPress Expert based in Kabul,

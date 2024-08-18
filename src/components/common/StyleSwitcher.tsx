@@ -30,11 +30,36 @@ const StyleSwitcher: FC = () => {
             data-theme="light"
           >
             <button
-              className="border w-full px-4 py-4 flex flex-col gap-1 justify-center items-center [&.active]:bg-flashWhite [&.active]:text-black dark:text-white rounded-md"
+              className="border w-full px-4 py-4 flex flex-col gap-1 justify-center items-center [&amp;.active]:bg-flashWhite [&amp;.active]:text-black dark:text-white rounded-md"
               id="light_theme"
               title="Active Light Theme"
             >
-              <i className="fal fa-sun"></i>
+              <svg
+                stroke="currentColor"
+                fill="currentColor"
+                stroke-width="0"
+                viewBox="0 0 512 512"
+                height="22"
+                width="22"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-miterlimit="10"
+                  stroke-width="32"
+                  d="M256 48v48m0 320v48m147.08-355.08-33.94 33.94M142.86 369.14l-33.94 33.94M464 256h-48m-320 0H48m355.08 147.08-33.94-33.94M142.86 142.86l-33.94-33.94"
+                ></path>
+                <circle
+                  cx="256"
+                  cy="256"
+                  r="80"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-miterlimit="10"
+                  stroke-width="32"
+                ></circle>
+              </svg>
             </button>
           </div>
         </div>
