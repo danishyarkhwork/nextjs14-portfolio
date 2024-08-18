@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
+import StyleSwitcher from "@/components/common/StyleSwitcher";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -30,7 +31,26 @@ export default function RootLayout({
       <link rel="stylesheet" href="assets/css/style.min.css" />
 
       <body className={`relative custom_cursor ${inter.className}`}>
+        <div className="custom_cursor_one fixed top-0 left-0 w-8 h-8 border border-gray-400 rounded-full pointer-events-none"></div>
+        <div className="custom_cursor_two w-1 h-1 rounded-full border border-gray-400 bg-metborder-gray-400 fixed pointer-events-none left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"></div>
+        <div id="preloader">
+          <div className="loader_line"></div>
+          <div className="absolute w-20 h-20 transition-all delay-300 -translate-x-1/2 -translate-y-1/2 rounded-full logo top-1/2 left-1/2 bg-nightBlack border-greyBlack flex-center">
+            <img src="assets/img/site-logo.svg" alt="Minfo" />
+          </div>
+        </div>
+
         {children}
+
+        <div className="bg-lines fixed inset-0 -z-1 md:max-xl:max-w-[45rem] xl:max-w-60rem 2xl:max-w-container mx-auto max-sm:px-8 sm:max-xl:px-12">
+          <div className="line-wrapper max-w-[1130px] w-full h-full ml-auto 2xl:-mr-24 relative flex justify-between *:w-px *:h-full *:border-r *:border-dashed *:border-slate-300 dark:*:border-metalBlack *:relative *:before:absolute *:before:bg-theme *:before:rotate-45 *:before:-left-1 *:before:w-2 *:before:h-2">
+            <div className="line1 before:animate-top_bottom"></div>
+            <div className="line2 before:bottom-0 before:animate-bottom_top before:animate-delay-3s"></div>
+            <div className="line3 before:animate-top_bottom before:animate-delay-3s"></div>
+            <div className="line4 before:bottom-0 before:animate-bottom_top before:animate-delay-2s"></div>
+          </div>
+        </div>
+        <StyleSwitcher />
 
         <Script src="assets/js/jquery-3.6.0.min.js"></Script>
         <Script src="assets/js/waypoints.min.js"></Script>
