@@ -7,37 +7,33 @@ const SidebarProfile: React.FC = () => {
       <div className="p-3 max-xl:mb-3 overflow-hidden minfo__sidebar bg-white dark:bg-nightBlack rounded-2xl">
         <div className="mx-4 mt-12 text-center user-info lg:mx-6">
           <a
-            href="/"
-            className="w-36 h-36 mb-2.5 block mx-auto border-6 border-platinum dark:border-[#2f2f2f] overflow-hidden rounded-full"
+            href="index.html"
+            className="w-36 h-36 mb-2.5 block mx-auto border-6 border-platinum dark:border-[#2f2f2f] overflow-hidden rounded-full *:w-full *:h-full *:rounded-full"
           >
-            <Image
-              src="/assets/img/user-sidebar-thumb.png"
-              alt="Brown Reddick"
-              width={144}
-              height={144}
+            <img
+              src="assets/img/user-sidebar-thumb.png"
               className="hidden dark:block"
-            />
-            <Image
-              src="/assets/img/user-sidebar-thumb-light.png"
               alt="Brown Reddick"
-              width={144}
-              height={144}
+            />
+            <img
+              src="assets/img/user-sidebar-thumb-light.png"
               className="dark:hidden"
+              alt="Brown Reddick"
             />
           </a>
-          <h6 className="mb-1 text-lg font-semibold text-black dark:text-white">
+          <h6 className="mb-1 text-lg font-semibold text-black dark:text-white name">
             Brown Reddick
           </h6>
           <div className="leading-none cd-headline clip is-full-width">
-            <h6 className="text-sm cd-words-wrapper text-theme">
+            <h6 className="text-sm cd-words-wrapper designation text-theme after:!bg-theme *:font-normal">
               <b className="is-visible">Web Developer</b>
-              <b>Photographer</b>
+              <b>Photographers</b>
               <b>Web Designer</b>
             </h6>
           </div>
         </div>
-        <div className="pt-6 mx-4 border-t lg:mx-6 md:mx-7 my-7 border-platinum dark:border-metalBlack">
-          <ul className="space-y-3">
+        <div className="pt-6 mx-4 border-t lg:mx-6 user-meta-info md:mx-7 my-7 border-platinum dark:border-metalBlack">
+          <ul className="space-y-3 *:flex *:text-sm">
             <li>
               <span className="flex-1 font-medium text-black dark:text-white">
                 Residence:
@@ -58,33 +54,72 @@ const SidebarProfile: React.FC = () => {
             </li>
           </ul>
         </div>
+
         <div className="px-4 py-5 lg:py-6 lg:px-6 rounded-2xl md:px-8 bg-flashWhite dark:bg-metalBlack">
           <div className="text-sm font-medium text-black dark:text-white">
             Skills
           </div>
-          <div className="flex items-center justify-between my-4 space-x-4">
-            {[
-              { skill: "HTML", percent: 90 },
-              { skill: "CSS", percent: 80 },
-              { skill: "JS", percent: 80 },
-              { skill: "PHP", percent: 90 },
-            ].map((item, index) => (
-              <div key={index} className="text-center">
-                <div
-                  className="relative w-12 h-12"
-                  style={{
-                    background: `conic-gradient(#00BC91 ${item.percent}%, #777777 ${item.percent}%)`,
-                  }}
-                >
-                  <div className="absolute inset-0 flex items-center justify-center text-[13px] font-medium">
-                    {item.percent}%
-                  </div>
+          <div className="flex items-center justify-between my-4 space-x-4 skills_circle *:space-y-2 *:text-center">
+            <div className="progressCircle">
+              <div
+                className="relative w-12 h-12 circle"
+                data-percent="90"
+                data-circlefill="#00BC91"
+                data-circleempty="#777777"
+              >
+                <div className="absolute inset-0 text-[13px] font-medium label flex-center">
+                  90%
                 </div>
-                <p className="text-[13px] font-normal dark:font-light text-black dark:text-white/90">
-                  {item.skill}
-                </p>
               </div>
-            ))}
+              <p className="text-[13px] font-normal dark:font-light text-black dark:text-white/90">
+                HTML
+              </p>
+            </div>
+            <div className="progressCircle">
+              <div
+                className="relative w-12 h-12 circle"
+                data-percent="80"
+                data-circlefill="#00BC91"
+                data-circleempty="#777777"
+              >
+                <div className="absolute inset-0 text-[13px] font-medium label flex-center">
+                  80%
+                </div>
+              </div>
+              <p className="text-[13px] font-normal dark:font-light text-black dark:text-white/90">
+                CSS
+              </p>
+            </div>
+            <div className="progressCircle">
+              <div
+                className="relative w-12 h-12 circle"
+                data-percent="80"
+                data-circlefill="#00BC91"
+                data-circleempty="#777777"
+              >
+                <div className="absolute inset-0 text-[13px] font-medium label flex-center">
+                  80%
+                </div>
+              </div>
+              <p className="text-[13px] font-normal dark:font-light text-black dark:text-white/90">
+                JS
+              </p>
+            </div>
+            <div className="progressCircle">
+              <div
+                className="relative w-12 h-12 circle"
+                data-percent="90"
+                data-circlefill="#00BC91"
+                data-circleempty="#777777"
+              >
+                <div className="absolute inset-0 text-[13px] font-medium label flex-center">
+                  90%
+                </div>
+              </div>
+              <p className="text-[13px] font-normal dark:font-light text-black dark:text-white/90">
+                PHP
+              </p>
+            </div>
           </div>
           <div className="mt-6">
             <a
@@ -115,6 +150,17 @@ const SidebarProfile: React.FC = () => {
             </a>
           </div>
         </div>
+
+        <svg className="absolute w-0 h-0">
+          <clipPath
+            id="my-clip-path"
+            clipPathUnits="objectBoundingBox"
+            stroke="white"
+            stroke-width="2"
+          >
+            <path d="M0.001,0.031 C0.001,0.014,0.026,0.001,0.055,0.001 H0.492 C0.506,0.001,0.52,0.004,0.53,0.009 L0.61,0.052 C0.62,0.057,0.634,0.06,0.649,0.06 H0.947 C0.977,0.06,1,0.074,1,0.091 V0.971 C1,0.987,0.977,1,0.947,1 H0.055 C0.026,1,0.001,0.987,0.001,0.971 V0.031"></path>
+          </clipPath>
+        </svg>
       </div>
     </div>
   );

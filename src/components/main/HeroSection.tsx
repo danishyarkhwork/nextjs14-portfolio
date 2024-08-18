@@ -9,7 +9,7 @@ const HeroSection: FC = () => {
           <i className="fal fa-home text-theme"></i>
           INTRODUCE
         </div>
-        <div className="flex flex-col gap-6 md:flex-row xl:gap-10">
+        <div className="items-center gap-6 hero-content md:flex xl:gap-10">
           <div className="pt-7 lg:pt-8 max-w-[30rem]">
             <h1 className="text-[32px] lg:text-5xl xl:text-4xl 2xl:text-5xl font-semibold text-black dark:text-white leading-1.27 mb-4 lg:mb-5">
               I Craft The <br />
@@ -69,8 +69,83 @@ const HeroSection: FC = () => {
                 Trusted companies
               </h6>
             </div>
-            <div className="col-span-10">
-              {/* Swiper Component or similar for logos */}
+            <div className="col-span-10 logo-slider">
+              <div className="swiper">
+                <div className="swiper-wrapper">
+                  <div className="swiper-slide">
+                    <a href="#" className="transition duration-200 flex-center">
+                      <img
+                        src="assets/img/partners/logo1.svg"
+                        alt="Partner Name"
+                      />
+                    </a>
+                  </div>
+                  <div className="swiper-slide">
+                    <a href="#" className="transition duration-200 flex-center">
+                      <img
+                        src="assets/img/partners/logo2.svg"
+                        alt="Partner Name"
+                      />
+                    </a>
+                  </div>
+                  <div className="swiper-slide">
+                    <a href="#" className="transition duration-200 flex-center">
+                      <img
+                        src="assets/img/partners/logo3.svg"
+                        alt="Partner Name"
+                      />
+                    </a>
+                  </div>
+                  <div className="swiper-slide">
+                    <a href="#" className="transition duration-200 flex-center">
+                      <img
+                        src="assets/img/partners/logo4.svg"
+                        alt="Partner Name"
+                      />
+                    </a>
+                  </div>
+                  <div className="swiper-slide">
+                    <a href="#" className="transition duration-200 flex-center">
+                      <img
+                        src="assets/img/partners/logo2.svg"
+                        alt="Partner Name"
+                      />
+                    </a>
+                  </div>
+                  <div className="swiper-slide">
+                    <a href="#" className="transition duration-200 flex-center">
+                      <img
+                        src="assets/img/partners/logo4.svg"
+                        alt="Partner Name"
+                      />
+                    </a>
+                  </div>
+                  <div className="swiper-slide">
+                    <a href="#" className="transition duration-200 flex-center">
+                      <img
+                        src="assets/img/partners/logo2.svg"
+                        alt="Partner Name"
+                      />
+                    </a>
+                  </div>
+                  <div className="swiper-slide">
+                    <a href="#" className="transition duration-200 flex-center">
+                      <img
+                        src="assets/img/partners/logo4.svg"
+                        alt="Partner Name"
+                      />
+                    </a>
+                  </div>
+                  <div className="swiper-slide">
+                    <a href="#" className="transition duration-200 flex-center">
+                      <img
+                        src="assets/img/partners/logo2.svg"
+                        alt="Partner Name"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
