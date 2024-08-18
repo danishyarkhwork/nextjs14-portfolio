@@ -1,18 +1,19 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Navigation: React.FC = () => {
   return (
     <div className="bg-snowWhite dark:bg-power__black fixed top-1/2 transform -translate-y-1/2 right-4 2xl:right-14 z-[999] flex items-center flex-col gap-4 border border-platinum dark:border-metalBlack rounded-4xl px-2.5 py-4 max-xl:hidden">
       {/* Site Logo Start */}
       <div className="flex border rounded-full w-[60px] h-[60px] border-platinum dark:border-metalBlack flex-center hover:bg-white dark:hover:bg-metalBlack">
-        <a href="/">
+        <Link href="/">
           <Image
             src="/assets/img/site-logo.svg"
             alt="Minfo"
             width={40}
             height={40}
           />
-        </a>
+        </Link>
       </div>
       {/* Site Logo End */}
 
@@ -69,18 +70,26 @@ const Navigation: React.FC = () => {
 
         {/* Social Share Icon Start  */}
         <div className="absolute bottom-0 flex items-center invisible px-5 py-6 space-x-3 transition-all duration-300 -translate-y-1/2 opacity-0 social-icons top-1/2 bg-white dark:bg-nightBlack rounded-4xl right-6 group-hover:opacity-100 group-hover:visible group-hover:right-10 z-[-1] flex transition duration-200">
-          <a href="#" className="hover:text-theme" title="Share with Facebook">
+          <Link
+            href="#"
+            className="hover:text-theme"
+            title="Share with Facebook"
+          >
             <i className="fab fa-facebook"></i>
-          </a>
-          <a href="#" className="hover:text-theme" title="Share with LinkedIn">
+          </Link>
+          <Link
+            href="#"
+            className="hover:text-theme"
+            title="Share with LinkedIn"
+          >
             <i className="fab fa-linkedin-in"></i>
-          </a>
-          <a href="#" className="hover:text-theme" title="Share with X">
+          </Link>
+          <Link href="#" className="hover:text-theme" title="Share with X">
             <i className="fab fa-twitter"></i>
-          </a>
-          <a href="#" className="hover:text-theme" title="Share with X">
+          </Link>
+          <Link href="#" className="hover:text-theme" title="Share with X">
             <i className="fab fa-instagram"></i>
-          </a>
+          </Link>
         </div>
         {/* Social Share Icon End  */}
       </div>

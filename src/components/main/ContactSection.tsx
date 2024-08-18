@@ -10,11 +10,11 @@ const ContactSection: FC = () => {
         </div>
         <div className="mb-10 mt-7 section-title">
           <h2 className="title text-[32px] md:text-4xl lg:text-5xl font-extralight text-black dark:text-white leading-1.27">
-            Contact <span className="font-semibold text-theme">Me.</span>
+            Let’s start a{" "}
+            <span className="font-semibold text-theme">conversation.</span>
           </h2>
           <p className="mt-3.5 md:mt-5 subtitle max-w-sectionTitle">
-            I design products that are more than pretty. I make them shippable
-            and usable, ttempor non mollit dolor et do aute
+            Leave me a message and I’ll get back to you as soon as possible
           </p>
         </div>
 
@@ -47,7 +47,7 @@ const ContactSection: FC = () => {
                   <h6 className="text-lg text-black dark:text-white">
                     Location
                   </h6>
-                  <p className="text-sm">Melbourne Street. No 20</p>
+                  <p className="text-sm">Kabul, Afghanistan</p>
                 </div>
               </li>
               <li>
@@ -93,7 +93,7 @@ const ContactSection: FC = () => {
                 </div>
                 <div className="flex-1">
                   <h6 className="text-lg text-black dark:text-white">E-mail</h6>
-                  <p className="text-sm">smith@gmail.com</p>
+                  <p className="text-sm">info@khaliddanishyar.com</p>
                 </div>
               </li>
               <li>
@@ -125,7 +125,7 @@ const ContactSection: FC = () => {
                 </div>
                 <div className="flex-1">
                   <h6 className="text-lg text-black dark:text-white">Phone</h6>
-                  <p className="text-sm">+976 34 99 99</p>
+                  <p className="text-sm">+93 (0) 70 332 5036</p>
                 </div>
               </li>
             </ul>
@@ -180,7 +180,7 @@ const ContactSection: FC = () => {
         </div>
         <iframe
           className="w-full overflow-hidden border-10 border-platinum dark:border-greyBlack embed-map h-80 2xl:h-96 rounded-2xl"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25908.703277839155!2d-74.18208878159237!3d40.640176526919696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1699271377092!5m2!1sen!2sbd"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d210303.61688940407!2d69.197731!3d34.553706950000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d1694c3c1e6d49%3A0xebdf473578214429!2sKabul!5e0!3m2!1sen!2s!4v1723994104794!5m2!1sen!2s"
           aria-label="Contact Map"
         ></iframe>
       </div>

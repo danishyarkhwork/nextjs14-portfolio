@@ -12,9 +12,11 @@ const ResumeSection: FC = () => {
           <h2 className="title text-[32px] md:text-4xl lg:text-5xl font-extralight text-black dark:text-white leading-1.27">
             Work <span className="font-semibold text-theme">Experience</span>
           </h2>
-          <p className="max-w-xl mt-4 md:mt-6 subtitle">
-            I design products that are more than pretty. I make them shippable
-            and usable, tempor non mollit dolor et do aute
+          <p className="mt-4 md:mt-6 subtitle">
+            I have worked with large local and international companies, gaining
+            experience in diverse environments and collaborating with
+            cross-functional teams. This exposure has enhanced my ability to
+            adapt to different business cultures and market dynamics.
           </p>
         </div>
 
@@ -23,53 +25,61 @@ const ResumeSection: FC = () => {
             <li>
               <div className="flex items-center justify-between mb-5 md:w-64 md:block md:mb-0">
                 <h6 className="text-sm font-medium text-black dark:text-white text-opacity-60 md:text-base md:text-opacity-100">
-                  Envato Market
+                  Baheer Group
                 </h6>
                 <p className="text-[13px] md:text-sm text-theme">
-                  Mar, 2022 - Current
+                  April 13, 2023 - Current
                 </p>
               </div>
               <div className="md:flex-1 md:pl-16 relative md:before:content-[''] md:before:absolute md:before:-left-1 md:before:top-3 md:before:w-2 md:before:h-2 md:before:bg-theme md:before:rounded-full md:before:shadow-dots_glow">
                 <h4 className="text-xl xl:text-2xl font-medium xl:font-medium leading-7 text-black dark:text-white mb-2.5">
-                  Lead UX Designer
+                  Full Stack Web Developer
                 </h4>
                 <p>
-                  Owing to advancements in product other designer technologies
-                  aute voluptate.
-                </p>
-              </div>
-            </li>
-            <li>
-              <div className="flex items-center justify-between mb-5 md:w-64 md:block md:mb-0">
-                <h6 className="text-sm font-medium text-black dark:text-white text-opacity-60 md:text-base md:text-opacity-100">
-                  Google
-                </h6>
-                <p className="text-[13px] md:text-sm text-theme">2018 - 2022</p>
-              </div>
-              <div className="md:flex-1 md:pl-16 relative md:before:content-[''] md:before:absolute md:before:-left-1 md:before:top-3 md:before:w-2 md:before:h-2 md:before:bg-theme md:before:rounded-full md:before:shadow-dots_glow">
-                <h4 className="text-xl xl:text-2xl font-medium xl:font-medium leading-7 text-black dark:text-white mb-2.5">
-                  UX Designer
-                </h4>
-                <p>
-                  Owing to advancements in product other designer technologies
-                  aute voluptate.
+                  Front-end development for Enterprise Resource Planning (ERP)
+                  System using HTML, Tailwind CSS, Bootstrap, React and other
+                  related tools
                 </p>
               </div>
             </li>
             <li>
               <div className="flex items-center justify-between mb-5 md:w-64 md:block md:mb-0">
                 <h6 className="text-sm font-medium text-black dark:text-white text-opacity-60 md:text-base md:text-opacity-100">
-                  Apple
+                  Qader Zaher Group (QZG)
                 </h6>
-                <p className="text-[13px] md:text-sm text-theme">2014-2018</p>
+                <p className="text-[13px] md:text-sm text-theme">
+                  Oct 19, 2022 - April 12, 2023
+                </p>
               </div>
               <div className="md:flex-1 md:pl-16 relative md:before:content-[''] md:before:absolute md:before:-left-1 md:before:top-3 md:before:w-2 md:before:h-2 md:before:bg-theme md:before:rounded-full md:before:shadow-dots_glow">
                 <h4 className="text-xl xl:text-2xl font-medium xl:font-medium leading-7 text-black dark:text-white mb-2.5">
-                  Human Interface Designer
+                  Web Developer & SEO Analyst
                 </h4>
                 <p>
-                  Owing to advancements in product other designer technologies
-                  aute voluptate.
+                  Regularly update and maintain websites to ensure optimal
+                  performance and user experience. Develop websites for new
+                  projects, leveraging skills in WordPress.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div className="flex items-center justify-between mb-5 md:w-64 md:block md:mb-0">
+                <h6 className="text-sm font-medium text-black dark:text-white text-opacity-60 md:text-base md:text-opacity-100">
+                  Afghan Altruistic Humanitarian Organization (AAHO)
+                </h6>
+                <p className="text-[13px] md:text-sm text-theme">
+                  March 20, 2022 – Sep 02, 2022
+                </p>
+              </div>
+              <div className="md:flex-1 md:pl-16 relative md:before:content-[''] md:before:absolute md:before:-left-1 md:before:top-3 md:before:w-2 md:before:h-2 md:before:bg-theme md:before:rounded-full md:before:shadow-dots_glow">
+                <h4 className="text-xl xl:text-2xl font-medium xl:font-medium leading-7 text-black dark:text-white mb-2.5">
+                  Web Developer & Social Media Manager
+                </h4>
+                <p>
+                  Regularly update and maintain websites to ensure optimal
+                  performance and user experience. Develop websites for new
+                  projects, leveraging skills in WordPress, HTML, CSS,
+                  JavaScript, and PHP with MySQL.
                 </p>
               </div>
             </li>
@@ -80,9 +90,14 @@ const ResumeSection: FC = () => {
           <h2 className="title text-[32px] md:text-4xl lg:text-5xl font-extralight text-black dark:text-white leading-1.27">
             My <span className="font-semibold text-theme">Education</span>
           </h2>
-          <p className="max-w-xl mt-4 md:mt-6 subtitle">
-            I design products that are more than pretty. I make them shippable
-            and usable, tempor non mollit dolor et do aute
+          <p className="mt-4 md:mt-6 subtitle">
+            I am committed to continuous learning and education, striving to
+            stay up-to-date with the latest advancements in my field. My goal is
+            to be among the best in the community, enabling me to serve others
+            effectively and contribute meaningfully to society. By constantly
+            expanding my knowledge and skills, I ensure that I can provide the
+            highest level of service and make a positive impact on those around
+            me.
           </p>
         </div>
 
@@ -91,51 +106,51 @@ const ResumeSection: FC = () => {
             <li>
               <div className="flex items-center justify-between mb-5 md:w-64 md:block md:mb-0">
                 <h6 className="text-sm font-medium text-black dark:text-white text-opacity-60 md:text-base md:text-opacity-100">
-                  Oxford University
+                  Bakhtar University
                 </h6>
-                <p className="text-[13px] md:text-sm text-theme">2016-2018</p>
+                <p className="text-[13px] md:text-sm text-theme">2023-2025</p>
               </div>
               <div className="md:flex-1 md:pl-16 relative md:before:content-[''] md:before:absolute md:before:-left-1 md:before:top-3 md:before:w-2 md:before:h-2 md:before:bg-theme md:before:rounded-full md:before:shadow-dots_glow">
                 <h4 className="text-xl xl:text-2xl font-medium xl:font-medium leading-7 text-black dark:text-white mb-2.5">
-                  Diploma in Computer
+                  Master in Computer Science (MCS)
                 </h4>
                 <p>
-                  Owing to advancements in product other designer technologies
-                  aute voluptate.
+                  Pursuing Master in Computer Science (MCS) 2 nd Year at Bakhtar
+                  University, Kabul.
                 </p>
               </div>
             </li>
             <li>
               <div className="flex items-center justify-between mb-5 md:w-64 md:block md:mb-0">
                 <h6 className="text-sm font-medium text-black dark:text-white text-opacity-60 md:text-base md:text-opacity-100">
-                  Google
+                  Khurasan University
                 </h6>
-                <p className="text-[13px] md:text-sm text-theme">2018 - 2022</p>
+                <p className="text-[13px] md:text-sm text-theme">2015-2019</p>
               </div>
               <div className="md:flex-1 md:pl-16 relative md:before:content-[''] md:before:absolute md:before:-left-1 md:before:top-3 md:before:w-2 md:before:h-2 md:before:bg-theme md:before:rounded-full md:before:shadow-dots_glow">
                 <h4 className="text-xl xl:text-2xl font-medium xl:font-medium leading-7 text-black dark:text-white mb-2.5">
-                  BSc in Engineering
+                  Bachelor in Computer Science
                 </h4>
                 <p>
-                  Owing to advancements in product other designer technologies
-                  aute voluptate.
+                  Bachelor in Computer Science (BCS) with distinction, Khurasan
+                  University, Nangarhar (2015-2019)
                 </p>
               </div>
             </li>
             <li>
               <div className="flex items-center justify-between mb-5 md:w-64 md:block md:mb-0">
                 <h6 className="text-sm font-medium text-black dark:text-white text-opacity-60 md:text-base md:text-opacity-100">
-                  Oxford University
+                  Khurasan University
                 </h6>
-                <p className="text-[13px] md:text-sm text-theme">2014-2018</p>
+                <p className="text-[13px] md:text-sm text-theme">2016-2017</p>
               </div>
               <div className="md:flex-1 md:pl-16 relative md:before:content-[''] md:before:absolute md:before:-left-1 md:before:top-3 md:before:w-2 md:before:h-2 md:before:bg-theme md:before:rounded-full md:before:shadow-dots_glow">
                 <h4 className="text-xl xl:text-2xl font-medium xl:font-medium leading-7 text-black dark:text-white mb-2.5">
-                  Php Development
+                  Diploma in English Language
                 </h4>
                 <p>
-                  Owing to advancements in product other designer technologies
-                  aute voluptate.
+                  Diploma in English Language (DEL), Khurasan University DEL
+                  department, Nangarhar (2016-2017)
                 </p>
               </div>
             </li>

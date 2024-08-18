@@ -12,9 +12,16 @@ const ServicesSection: FC = () => {
           <h2 className="title text-[32px] md:text-4xl lg:text-5xl font-extralight text-black dark:text-white leading-1.27">
             My <span className="font-semibold text-theme">Services</span>
           </h2>
-          <p className="max-w-xl mt-4 md:mt-6 subtitle">
-            I design products that are more than pretty. I make them shippable
-            and usable, tempor non mollit dolor et do aute
+          <p className="mt-4 md:mt-6 subtitle">
+            I offer a unique blend of expertise and affordability. With
+            proficiency in WordPress, HTML5, CSS3, JavaScript, and more, I
+            deliver high-quality development services at a budget-friendly
+            price. I am committed to timely delivery, ensuring projects are
+            completed promptly without compromising on quality. Additionally, my
+            strong background in SEO ensures that your website is optimized for
+            search engines. My passion for innovation keeps me updated with the
+            latest trends in web development, allowing me to bring fresh ideas
+            to every project.
           </p>
         </div>
 
@@ -35,11 +42,11 @@ const ServicesSection: FC = () => {
               01
             </div>
             <h4 className="mt-5 mb-4 text-xl font-medium text-black dark:text-white xl:text-2xl">
-              UI/UX Design
+              WordPress Website Design
             </h4>
             <p>
-              I design products that are more than pretty. I make them
-              shippable.
+              Designing and developing custom themes from scratch or customizing
+              pre-built themes to meet business needs.
             </p>
           </div>
           <div className="card-item group hover:border-theme dark:hover:border-theme">
@@ -63,11 +70,11 @@ const ServicesSection: FC = () => {
               02
             </div>
             <h4 className="mt-5 mb-4 text-xl font-medium text-black dark:text-white xl:text-2xl">
-              Web Development
+              WordPress Website Maintenance
             </h4>
             <p>
-              I design products that are more than pretty. I make them
-              shippable.
+              Providing ongoing maintenance for WordPress websites, including
+              security updates, backups, and troubleshooting.
             </p>
           </div>
           <div className="card-item group hover:border-theme dark:hover:border-theme">
@@ -94,11 +101,11 @@ const ServicesSection: FC = () => {
               03
             </div>
             <h4 className="mt-5 mb-4 text-xl font-medium text-black dark:text-white xl:text-2xl">
-              SEO / Marketing
+              Shopify Store Designing
             </h4>
             <p>
-              I design products that are more than pretty. I make them
-              shippable.
+              Setting up Shopify custom domain store with payment method setup,
+              SEO, Training, Plugin installation, and other related needs.
             </p>
           </div>
           <div className="card-item group hover:border-theme dark:hover:border-theme">
@@ -117,11 +124,12 @@ const ServicesSection: FC = () => {
               04
             </div>
             <h4 className="mt-5 mb-4 text-xl font-medium text-black dark:text-white xl:text-2xl">
-              Branding & Strategy
+              SEO Optimization
             </h4>
             <p>
-              I design products that are more than pretty. I make them
-              shippable.
+              Optimizing WordPress websites for search engine ranking by
+              conducting keyword research, optimizing content, and building
+              backlinks.
             </p>
           </div>
         </div>

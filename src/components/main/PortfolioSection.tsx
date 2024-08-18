@@ -12,12 +12,13 @@ const PortfolioSection: FC = () => {
         </div>
         <div className="mt-5 mb-8 md:my-10 section-title">
           <h2 className="title text-[32px] md:text-4xl lg:text-5xl font-extralight text-black dark:text-white leading-1.27">
-            Featured
-            <span className="font-semibold text-theme">Projects</span>
+            Featured <span className="font-semibold text-theme">Projects</span>
           </h2>
-          <p className="max-w-xl mt-4 md:mt-6 subtitle">
-            I design products that are more than pretty. I make them shippable
-            and usable, ttempor non mollit dolor et do aute
+          <p className="mt-4 md:mt-6 subtitle">
+            Explore my latest projects, showcasing my skills in full-stack web
+            development and WordPress. Each project highlights my ability to
+            deliver responsive, user-friendly websites and applications, with a
+            focus on quality, innovation, and performance.
           </p>
         </div>
 
@@ -29,15 +30,14 @@ const PortfolioSection: FC = () => {
             >
               <div className="img-wrapper">
                 <img
-                  src="assets/img/portfolio/portfolio-img1.png"
+                  src="assets/img/portfolio/qamar-islamic-institute.PNG"
                   className="rounded-lg max-md:h-[17rem] w-full max-md:object-cover max-md:object-center transition-all duration-300 group-hover:blur-xs"
                   alt="portfolio"
                 />
                 <div className="absolute inset-0 transition-all duration-300 opacity-0 overlay bg-gradient-to-t from-white dark:from-black to-transparent rounded-xl group-hover:opacity-100"></div>
               </div>
               <div className="info text-center position-center max-lg:text-3xl text-lead font-semibold text-black dark:text-white leading-1.15 transition duration-500 scale-110 opacity-0 group-hover:scale-100 group-hover:opacity-100 relative z-10">
-                Design
-                <span> Specialization </span>
+                Qamar Islamic Institute
               </div>
             </a>
             <ul className="absolute z-10 transition-all duration-500 opacity-0 md:top-9 md:right-9 top-6 right-6 group-hover:opacity-100">
@@ -46,67 +46,7 @@ const PortfolioSection: FC = () => {
                   href="#"
                   className="inline-flex items-center gap-2 px-5 py-3 text-sm font-light leading-none text-white transition-colors bg-metalBlack rounded-3xl hover:text-theme"
                 >
-                  Branding
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <div className="item md:col-span-1 group">
-            <a
-              href="project-single.html"
-              className="block p-3 overflow-hidden border md:p-4 rounded-xl border-platinum dark:border-greyBlack"
-            >
-              <div className="img-wrapper">
-                <img
-                  src="assets/img/portfolio/portfolio-img2.png"
-                  className="rounded-lg max-md:h-[17rem] w-full max-md:object-cover max-md:object-center transition-all duration-300 group-hover:blur-xs"
-                  alt="portfolio"
-                />
-                <div className="absolute inset-0 transition-all duration-300 opacity-0 overlay bg-gradient-to-t from-white dark:from-black to-transparent rounded-xl group-hover:opacity-100"></div>
-              </div>
-              <div className="info text-center position-center max-lg:text-3xl text-lead font-semibold text-black dark:text-white leading-1.15 transition duration-500 scale-110 opacity-0 group-hover:scale-100 group-hover:opacity-100 relative z-10">
-                Design
-                <span> Specialization </span>
-              </div>
-            </a>
-            <ul className="absolute z-10 transition-all duration-500 opacity-0 md:top-9 md:right-9 top-6 right-6 group-hover:opacity-100">
-              <li>
-                <a
-                  href="#"
-                  className="inline-flex items-center gap-2 px-5 py-3 text-sm font-light leading-none text-white transition-colors bg-metalBlack rounded-3xl hover:text-theme"
-                >
-                  Branding
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <div className="item md:col-span-1 group">
-            <a
-              href="project-single.html"
-              className="block p-3 overflow-hidden border md:p-4 rounded-xl border-platinum dark:border-greyBlack"
-            >
-              <div className="img-wrapper">
-                <img
-                  src="assets/img/portfolio/portfolio-img3.png"
-                  className="rounded-lg max-md:h-[17rem] w-full max-md:object-cover max-md:object-center transition-all duration-300 group-hover:blur-xs"
-                  alt="portfolio"
-                />
-                <div className="absolute inset-0 transition-all duration-300 opacity-0 overlay bg-gradient-to-t from-white dark:from-black to-transparent rounded-xl group-hover:opacity-100"></div>
-              </div>
-              <div className="info text-center position-center max-lg:text-3xl text-lead font-semibold text-black dark:text-white leading-1.15 transition duration-500 scale-110 opacity-0 group-hover:scale-100 group-hover:opacity-100 relative z-10">
-                Design
-                <span> Specialization </span>
-              </div>
-            </a>
-            <ul className="absolute z-10 transition-all duration-500 opacity-0 md:top-9 md:right-9 top-6 right-6 group-hover:opacity-100">
-              <li>
-                <a
-                  href="#"
-                  className="inline-flex items-center gap-2 px-5 py-3 text-sm font-light leading-none text-white transition-colors bg-metalBlack rounded-3xl hover:text-theme"
-                >
-                  Branding
+                  WordPress Website
                 </a>
               </li>
             </ul>
@@ -119,15 +59,14 @@ const PortfolioSection: FC = () => {
             >
               <div className="img-wrapper">
                 <img
-                  src="assets/img/portfolio/portfolio-img4.png"
+                  src="assets/img/portfolio/mizan-academy.PNG"
                   className="rounded-lg max-md:h-[17rem] w-full max-md:object-cover max-md:object-center transition-all duration-300 group-hover:blur-xs"
                   alt="portfolio"
                 />
                 <div className="absolute inset-0 transition-all duration-300 opacity-0 overlay bg-gradient-to-t from-white dark:from-black to-transparent rounded-xl group-hover:opacity-100"></div>
               </div>
               <div className="info text-center position-center max-lg:text-3xl text-lead font-semibold text-black dark:text-white leading-1.15 transition duration-500 scale-110 opacity-0 group-hover:scale-100 group-hover:opacity-100 relative z-10">
-                Design
-                <span> Specialization </span>
+                Mizan Online Academy
               </div>
             </a>
             <ul className="absolute z-10 transition-all duration-500 opacity-0 md:top-9 md:right-9 top-6 right-6 group-hover:opacity-100">
@@ -136,7 +75,36 @@ const PortfolioSection: FC = () => {
                   href="#"
                   className="inline-flex items-center gap-2 px-5 py-3 text-sm font-light leading-none text-white transition-colors bg-metalBlack rounded-3xl hover:text-theme"
                 >
-                  Branding
+                  WordPress Website
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div className="item md:col-span-2 group">
+            <a
+              href="project-single.html"
+              className="block p-3 overflow-hidden border md:p-4 rounded-xl border-platinum dark:border-greyBlack"
+            >
+              <div className="img-wrapper">
+                <img
+                  src="assets/img/portfolio/baheer-group.PNG"
+                  className="rounded-lg max-md:h-[17rem] w-full max-md:object-cover max-md:object-center transition-all duration-300 group-hover:blur-xs"
+                  alt="portfolio"
+                />
+                <div className="absolute inset-0 transition-all duration-300 opacity-0 overlay bg-gradient-to-t from-white dark:from-black to-transparent rounded-xl group-hover:opacity-100"></div>
+              </div>
+              <div className="info text-center position-center max-lg:text-3xl text-lead font-semibold text-black dark:text-white leading-1.15 transition duration-500 scale-110 opacity-0 group-hover:scale-100 group-hover:opacity-100 relative z-10">
+                Baheer Group of Companies
+              </div>
+            </a>
+            <ul className="absolute z-10 transition-all duration-500 opacity-0 md:top-9 md:right-9 top-6 right-6 group-hover:opacity-100">
+              <li>
+                <a
+                  href="#"
+                  className="inline-flex items-center gap-2 px-5 py-3 text-sm font-light leading-none text-white transition-colors bg-metalBlack rounded-3xl hover:text-theme"
+                >
+                  WordPress Website
                 </a>
               </li>
             </ul>

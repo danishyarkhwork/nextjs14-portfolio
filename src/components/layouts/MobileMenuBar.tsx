@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const MobileMenuBar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,7 +16,7 @@ const MobileMenuBar: React.FC = () => {
       {/* Mobile Menu Bar Start */}
       <div className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between p-2 px-3 bg-white/10 backdrop-blur-md sm:px-6 xl:hidden">
         <div className="text-lg font-medium">
-          <a
+          <Link
             href="/"
             className="flex items-center gap-2 text-black dark:text-white"
           >
@@ -26,7 +27,7 @@ const MobileMenuBar: React.FC = () => {
               height={24}
             />
             <span>Minfo</span>
-          </a>
+          </Link>
         </div>
         {/* Mobile Hamburger Menu Start */}
         <button

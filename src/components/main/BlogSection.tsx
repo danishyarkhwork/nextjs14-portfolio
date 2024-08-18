@@ -41,9 +41,13 @@ const BlogSection = () => {
           <h2 className="title text-[32px] md:text-4xl lg:text-5xl font-extralight text-black dark:text-white leading-1.27">
             Latest <span className="font-semibold text-theme">Insights</span>
           </h2>
-          <p className="max-w-xl mt-4 md:mt-6 subtitle">
-            I design products that are more than pretty. I make them shippable
-            and usable, tempor non mollit dolor et do aute
+          <p className="mt-4 md:mt-6 subtitle">
+            Check out my latest blog posts where I share insights on web
+            development, tips for optimizing your website, and the latest trends
+            in technology. Whether you are a developer looking for new
+            techniques or a business owner seeking to enhance your online
+            presence, these articles provide valuable knowledge to help you stay
+            ahead in the digital landscape.
           </p>
         </div>
         <div className="blog-list md:space-y-7.5 space-y-5 *:grid md:*:gap-2 *:grid-cols-12 *:overflow-hidden *:bg-flashWhite dark:*:bg-metalBlack *:items-center *:rounded-2xl *:p-3.5">

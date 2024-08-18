@@ -55,9 +55,12 @@ export default function RootLayout({
             <footer className="mx-auto minfo__contentBox max-w-container xl:max-2xl:max-w-65rem">
               <div className="footer-container text-center py-6 max-w-content xl:max-2xl:max-w-50rem max-xl:mx-auto xl:ml-auto">
                 <p>
-                  Copyright by
-                  <a href="#" className="transition-colors">
-                    @domain.com
+                  Copyright © 2024 -{" "}
+                  <a
+                    href="https://khaliddanishyar.com"
+                    className="transition-colors"
+                  >
+                    Khalid Danishyar
                   </a>
                 </p>
               </div>

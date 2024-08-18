@@ -13,9 +13,13 @@ const TestimonialsSection: FC = () => {
           <h2 className="title text-[32px] md:text-4xl lg:text-5xl font-extralight text-black dark:text-white leading-1.27">
             What <span className="font-semibold text-theme">People Say</span>
           </h2>
-          <p className="max-w-xl mt-4 md:mt-6 subtitle">
-            I design products that are more than pretty. I make them shippable
-            and usable, tempor non mollit dolor et do aute
+          <p className="mt-4 md:mt-6 subtitle">
+            Discover what clients and colleagues have to say about working with
+            me. Their feedback highlights my commitment to delivering
+            high-quality web development services, my ability to meet deadlines,
+            and my passion for innovation. Read these testimonials to see how
+            I’ve helped others achieve their goals and why they trust me with
+            their projects.
           </p>
         </div>
 

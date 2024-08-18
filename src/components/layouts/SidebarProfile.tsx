@@ -1,13 +1,14 @@
 // components/SidebarProfile.tsx
 import Image from "next/image";
+import Link from "next/link";
 
 const SidebarProfile: React.FC = () => {
   return (
     <div className="w-full mx-auto minfo__sidebar__wrapper xl:fixed xl:top-1/2 xl:left-4 2xl:left-14 xl:-translate-y-1/2 md:max-w-sidebar xl:max-2xl:max-w-xs z-999">
       <div className="p-3 max-xl:mb-3 overflow-hidden minfo__sidebar bg-white dark:bg-nightBlack rounded-2xl">
         <div className="mx-4 mt-12 text-center user-info lg:mx-6">
-          <a
-            href="index.html"
+          <Link
+            href="/"
             className="w-36 h-36 mb-2.5 block mx-auto border-6 border-platinum dark:border-[#2f2f2f] overflow-hidden rounded-full *:w-full *:h-full *:rounded-full"
           >
             <img
@@ -20,7 +21,7 @@ const SidebarProfile: React.FC = () => {
               className="dark:hidden"
               alt="Khalid Danishyar"
             />
-          </a>
+          </Link>
           <h6 className="mb-1 text-lg font-semibold text-black dark:text-white name">
             Khalid Danishyar
           </h6>

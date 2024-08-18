@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function Nav() {
@@ -5,9 +6,9 @@ export default function Nav() {
     <div className="minfo__nav__wrapper bg-snowWhite dark:bg-power__black max-xl:hidden fixed top-1/2 -translate-y-1/2 right-4 2xl:right-14 z-999 flex items-center flex-col gap-4 border border-platinum dark:border-metalBlack rounded-4xl px-2.5 py-4">
       {/* Site Logo Start */}
       <div className="flex border rounded-full logo w-15 h-15 border-platinum dark:border-metalBlack flex-center hover:bg-white dark:hover:bg-metalBlack">
-        <a href="index.html">
+        <Link href="/">
           <img src="assets/img/site-logo.svg" alt="Minfo" />
-        </a>
+        </Link>
       </div>
       {/* Site Logo End */}
 

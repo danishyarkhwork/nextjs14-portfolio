@@ -10,11 +10,13 @@ const SkillsSection: FC = () => {
         </div>
         <div className="mb-8 mt-7 md:my-10 section-title">
           <h2 className="title text-[32px] md:text-4xl lg:text-5xl font-extralight text-black dark:text-white leading-1.27">
-            My <span className="font-semibold text-theme">Advantages</span>
+            My <span className="font-semibold text-theme">Skills</span>
           </h2>
-          <p className="max-w-xl mt-4 md:mt-6 subtitle">
-            I design products that are more than pretty. I make them shippable
-            and usable, ttempor non mollit dolor et do aute
+          <p className="mt-4 md:mt-6 subtitle">
+            I specialize in front-end and back-end web development, with
+            expertise in WordPress, HTML5, CSS3, JavaScript, PHP, and more. I’m
+            dedicated to creating visually appealing, functional, and optimized
+            websites while staying current with the latest technologies.
           </p>
         </div>
 
