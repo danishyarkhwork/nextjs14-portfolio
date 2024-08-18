@@ -18,17 +18,17 @@ const SidebarProfile: React.FC = () => {
             <img
               src="assets/img/user-sidebar-thumb-light.png"
               className="dark:hidden"
-              alt="Brown Reddick"
+              alt="Khalid Danishyar"
             />
           </a>
           <h6 className="mb-1 text-lg font-semibold text-black dark:text-white name">
-            Brown Reddick
+            Khalid Danishyar
           </h6>
           <div className="leading-none cd-headline clip is-full-width">
             <h6 className="text-sm cd-words-wrapper designation text-theme after:!bg-theme *:font-normal">
               <b className="is-visible">Web Developer</b>
-              <b>Photographers</b>
-              <b>Web Designer</b>
+              <b>WordPress Expert</b>
+              <b>Lecturer</b>
             </h6>
           </div>
         </div>
@@ -38,19 +38,19 @@ const SidebarProfile: React.FC = () => {
               <span className="flex-1 font-medium text-black dark:text-white">
                 Residence:
               </span>
-              <span>Canada</span>
+              <span>Afghanistan</span>
             </li>
             <li>
               <span className="flex-1 font-medium text-black dark:text-white">
                 City:
               </span>
-              <span>Toronto</span>
+              <span>Kabul</span>
             </li>
             <li>
               <span className="flex-1 font-medium text-black dark:text-white">
                 Age:
               </span>
-              <span>26</span>
+              <span>27</span>
             </li>
           </ul>
         </div>
@@ -83,7 +83,7 @@ const SidebarProfile: React.FC = () => {
                 data-circleempty="#777777"
               >
                 <div className="absolute inset-0 text-[13px] font-medium label flex-center">
-                  80%
+                  90%
                 </div>
               </div>
               <p className="text-[13px] font-normal dark:font-light text-black dark:text-white/90">
@@ -98,7 +98,7 @@ const SidebarProfile: React.FC = () => {
                 data-circleempty="#777777"
               >
                 <div className="absolute inset-0 text-[13px] font-medium label flex-center">
-                  80%
+                  85%
                 </div>
               </div>
               <p className="text-[13px] font-normal dark:font-light text-black dark:text-white/90">
@@ -113,7 +113,7 @@ const SidebarProfile: React.FC = () => {
                 data-circleempty="#777777"
               >
                 <div className="absolute inset-0 text-[13px] font-medium label flex-center">
-                  90%
+                  80%
                 </div>
               </div>
               <p className="text-[13px] font-normal dark:font-light text-black dark:text-white/90">
@@ -123,7 +123,7 @@ const SidebarProfile: React.FC = () => {
           </div>
           <div className="mt-6">
             <a
-              href="mycv.pdf"
+              href="assets/Khalid-Danishyar-Resume.pdf"
               download
               target="_blank"
               className="text-center text-sm border border-theme bg-theme flex items-center justify-center gap-2 text-white rounded-4xl py-3.5 transition duration-300 text-[15px] font-semibold hover:bg-themeHover hover:border-themeHover"
