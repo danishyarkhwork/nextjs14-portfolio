@@ -15,8 +15,7 @@ const ResumeSection: FC = () => {
           <p className="mt-4 md:mt-6 subtitle">
             I have worked with large local and international companies, gaining
             experience in diverse environments and collaborating with
-            cross-functional teams. This exposure has enhanced my ability to
-            adapt to different business cultures and market dynamics.
+            cross-functional teams.
           </p>
         </div>
 
@@ -94,10 +93,7 @@ const ResumeSection: FC = () => {
             I am committed to continuous learning and education, striving to
             stay up-to-date with the latest advancements in my field. My goal is
             to be among the best in the community, enabling me to serve others
-            effectively and contribute meaningfully to society. By constantly
-            expanding my knowledge and skills, I ensure that I can provide the
-            highest level of service and make a positive impact on those around
-            me.
+            effectively and contribute meaningfully to society.
           </p>
         </div>
 

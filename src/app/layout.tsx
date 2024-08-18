@@ -3,7 +3,6 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
 import StyleSwitcher from "@/components/common/StyleSwitcher";
-import Navigation from "@/components/layouts/Navigation";
 import MobileMenuBar from "@/components/layouts/MobileMenuBar";
 import SidebarProfile from "@/components/layouts/SidebarProfile";
 import Nav from "@/components/layouts/Nav";
@@ -49,7 +48,6 @@ export default function RootLayout({
           <div className="max-lg:px-4">
             <MobileMenuBar />
             <SidebarProfile />
-            <Navigation />
             <Nav />
             {children}
             <footer className="mx-auto minfo__contentBox max-w-container xl:max-2xl:max-w-65rem">
