@@ -3,6 +3,10 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
 import StyleSwitcher from "@/components/common/StyleSwitcher";
+import Navigation from "@/components/layouts/Navigation";
+import MobileMenuBar from "@/components/layouts/MobileMenuBar";
+import SidebarProfile from "@/components/layouts/SidebarProfile";
+import Nav from "@/components/layouts/Nav";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -40,7 +44,26 @@ export default function RootLayout({
           </div>
         </div>
 
-        {children}
+        <div className="relative pt-10 minfo__app max-xl:pt-20">
+          <div className="menu-overlay fixed top-0 left-0 w-full h-full bg-black/60 transition-all duration-200 z-999 opacity-0 invisible [&.is-menu-open]:visible [&.is-menu-open]:opacity-100"></div>
+          <div className="max-lg:px-4">
+            <MobileMenuBar />
+            <SidebarProfile />
+            <Navigation />
+            <Nav />
+            {children}
+            <footer className="mx-auto minfo__contentBox max-w-container xl:max-2xl:max-w-65rem">
+              <div className="footer-container text-center py-6 max-w-content xl:max-2xl:max-w-50rem max-xl:mx-auto xl:ml-auto">
+                <p>
+                  Copyright by
+                  <a href="#" className="transition-colors">
+                    @domain.com
+                  </a>
+                </p>
+              </div>
+            </footer>
+          </div>
+        </div>
 
         <div className="bg-lines fixed inset-0 -z-1 md:max-xl:max-w-[45rem] xl:max-w-60rem 2xl:max-w-container mx-auto max-sm:px-8 sm:max-xl:px-12">
           <div className="line-wrapper max-w-[1130px] w-full h-full ml-auto 2xl:-mr-24 relative flex justify-between *:w-px *:h-full *:border-r *:border-dashed *:border-slate-300 dark:*:border-metalBlack *:relative *:before:absolute *:before:bg-theme *:before:rotate-45 *:before:-left-1 *:before:w-2 *:before:h-2">

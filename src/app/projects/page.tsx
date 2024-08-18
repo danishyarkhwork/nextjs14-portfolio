@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Home() {
+export default function ProjectsPage() {
   return (
     <div className="relative pt-10 minfo__app max-xl:pt-18">
       <div className="menu-overlay fixed top-0 left-0 w-full h-full bg-black/60 transition-all duration-200 z-999 opacity-0 invisible [&.is-menu-open]:visible [&.is-menu-open]:opacity-100 "></div>
@@ -818,15 +818,6 @@ export default function Home() {
               </div>
             </div>
           </div>
-
-          <footer className="py-6 ml-auto text-center footer-section max-w-content xl:max-2xl:max-w-50rem">
-            <p className="">
-              Copyright by
-              <a href="#" className="transition-colors">
-                @domain.com
-              </a>
-            </p>
-          </footer>
         </div>
       </div>
     </div>
